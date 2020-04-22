@@ -1,0 +1,7 @@
+﻿base   sprintmod
+author Gero Gothe
+email  practical@medizin-lernen.de
+date   2020-004-22
+name   Sprintdoc-Template Modifications
+desc   Modifications of styles used in the sprintdoc-template
+url    https://github.com/practical-solutions/dokuwiki-plugin-sprintdocmod
