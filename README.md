@@ -17,3 +17,13 @@ Die Änderungen wurden für die Template-Fassung *2020-01-22* durchgeführt
 * Sidebar
   * In der Sidebar werden die Punkte "Webseiten-Werkzeuge" und "Benutzer-Werkzeuge" nur für eingeloggte Nutzer angezeigt.
   * Die Suchleiste in der Sidebar ist ausgeblendet
+
+## Plugin Modifikationen
+
+Zusätzlich werden einige Plugins modifiziert, sofern sie installiert sind.
+
+### Button-Plugin
+
+Siehe [Plugin-Seite](https://www.dokuwiki.org/plugin:button)
+
+Anpassung der Styles.
