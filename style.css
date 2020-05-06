@@ -23,6 +23,7 @@
 /*---------------------------------------------------------------------*/
 
 
+
 /*********************************************************************** 
     Ausblenden der Suchleiste in der Sidebar
 ************************************************************************/
@@ -35,13 +36,15 @@
 /*********************************************************************** 
     Containter for button-plugin
 ************************************************************************/
-.plugin_button {
+
+.plugin_button  {
 	width:150px;
     min-height: 185px;
     margin-left: 2em;
     background:#F6F6F6;
     padding:0.5em;
     padding-bottom:0.7em;
+    margin-top:2em;
     text-align:center;
     cursor:pointer;
     border:none;
