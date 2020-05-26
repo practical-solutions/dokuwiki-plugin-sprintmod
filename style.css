@@ -96,3 +96,20 @@
 }
 
 /*---------------------------------------------------------------------*/
+
+/*********************************************************************** 
+    Approve Plugin
+************************************************************************/
+#plugin__approve {
+    right:clear;
+    left:0;
+    background:none;
+}
+
+#plugin__approve.plugin__approve_red {
+    color:red;
+}
+
+#plugin__approve.plugin__approve_ready {
+    color:green;
+}
