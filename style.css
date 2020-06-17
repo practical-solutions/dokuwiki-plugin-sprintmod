@@ -136,9 +136,75 @@ div .addnewpage {
 }
 
 /*********************************************************************** 
-    Messages Ausblenden
+    Spalten an Mobile View anpassen
 ************************************************************************/
-#dokuwiki__content .msg-area {
-    display:none;
+@media (max-width: 750px) {
+    /* Nspages-Plugin */
+    .plugin_nspages .catpagecol {
+        width:100% !important;
+    }
+    
+    .plugin_nspages .catpagechars.continued {
+        display:none !important;
+    }
+    
+    /* wrap-plugin */
+    .wrap_col2 {
+        column-count:1 !important;
+    }
+    
+    /* own implementations */
+    .plugin__sprintmod_statusbar,
+    .plugin__sprintmod_newpage {
+        display:none;
+    }
 }
 
+
+/*********************************************************************** 
+    ID-Anzeige
+************************************************************************/
+.plugin__sprintmod_statusbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2px 10px 2px 10px;
+    z-index: 2;
+    background-color: #f5f2f2;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    color: gray;
+    font-size: 14px;
+}
+
+/*********************************************************************** 
+    Anzeige von AddNewPage-Plugin
+************************************************************************/
+.plugin__sprintmod_newpage {
+    position: fixed;
+    bottom: -65px;
+    left: 2em;
+    z-index: 3;
+    padding: 0.5em;
+    transition:100ms;
+}
+
+.plugin__sprintmod_newpage span {
+    font-size:18px;
+    border:1px solid lightgray;
+    padding:2px;
+    background:#f5f2f2;
+}
+
+.plugin__sprintmod_newpage:hover {
+    background: white;
+    bottom:0;
+    border:1px solid lightsteelblue;
+    
+    span {
+        border:0;
+        padding:0;
+        background:none;
+    }
+    
+}

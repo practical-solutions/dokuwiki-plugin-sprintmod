@@ -11,8 +11,17 @@ Die Änderungen wurden für die Template-Fassung *2020-01-22* durchgeführt
 
 ## Modifikationen
 
-* Header
-  * Der Seitentitel ist leicht nach rechts verschoben
+### Funktionen
+
+* Anzeige der Seiten-ID (per Config)
+* "Neue Seite erstellen"-Button (per Config), [benötigt Addnewpage-Plugin](https://www.dokuwiki.org/plugin:addnewpage)
+
+### Styles
+
+* Responsivität
+  * Bessere Handy-Darstellung von Plugins: nspages
+
+* Header: Der Seitentitel ist leicht nach rechts verschoben
 
 * Sidebar
   * In der Sidebar werden die Punkte "Webseiten-Werkzeuge" und "Benutzer-Werkzeuge" nur für eingeloggte Nutzer angezeigt.
